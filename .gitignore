@@ -1,0 +1,14 @@
+# Ignore log files and temp files
+results.log
+*.swp
+*.swo
+*.tmp
+*.bak
+# Ignore OS files
+.DS_Store
+Thumbs.db
+# Ignore compiled files
+*.pyc
+__pycache__/
+# Ignore systemd user service backup
+*.service~
